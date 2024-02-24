@@ -1,0 +1,7 @@
+安装 Rust 和 Cargo 之后，你必须 获取(source) env 文件中的配置：
+
+$ source $HOME/.cargo/env
+
+更好的办法是，将所需目录添加到 PATH 环境变量中：
+
+export PATH=$PATH:~/.cargo/bin
